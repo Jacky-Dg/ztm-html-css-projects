@@ -1,0 +1,62 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  display: flex;
+  justify-content: center;
+
+  background: url(https://t3.ftcdn.net/jpg/19/91/88/02/240_F_1991880201_UAQr6drcgzYEWbthWOt3ZbC0Rsf21Czo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.row {
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+.buffer {
+  height: 20rem;
+}
+
+hr {
+  width: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3px;
+  border-radius: 50px;
+  background-color: orangered;
+  border-color: orangered;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  background-color: orangered;
+  text-transform: uppercase;
+  width: 195px;
+  padding: 0.75rem;
+}
+
+.btn-primary{
+  transition: transform 0.2s linear;
+}
+
+.btn-primary:hover {
+  background-color: darkorange;
+  color: white;
+  transform: scale(1.05);
+}
+
+.btn-primary:active{
+  background-color: orangered;
+}
